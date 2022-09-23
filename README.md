@@ -24,6 +24,8 @@ cd TaikoArcadeLoader
 make clean
 
 make
+
+make plugins 
 ```
 
 - distribution
