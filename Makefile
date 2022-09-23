@@ -1,4 +1,4 @@
-OUT = TAL
+OUT = STAL
 CC := x86_64-w64-mingw32-gcc
 TARGET := x86_64-pc-windows-gnu
 SDL_TARGET := x86_64-w64-mingw32
