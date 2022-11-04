@@ -53,7 +53,7 @@ clean:
 plugins:
 	make -C plugins/8.18
 	make -C plugins/amauth
-	cd plugins/8.18-song-limit && cargo build --release --target x86_64-pc-windows-gnu
+	cd plugins/8.18-song-limit && cross build --release --target x86_64-pc-windows-gnu
 	cp plugins/8.18-song-limit/target/x86_64-pc-windows-gnu/release/song_limit_8_18.dll ${TARGET}
 	strip ${TARGET}/*.dll
 
